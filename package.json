@@ -1,0 +1,23 @@
+{
+  "name": "amazon-aurora-http-client",
+  "version": "1.0.0",
+  "description": "HTTP client for Amazon Aurora",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "http",
+    "client",
+    "amazon",
+    "aurora"
+  ],
+  "author": "Łukasz Budnik <lukasz.budnik@gmail.com>",
+  "license": "MIT-0",
+  "dependencies": {
+    "aws-xray-sdk-core": "^3.4.1"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
+  }
+}
